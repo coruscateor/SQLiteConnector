@@ -7,11 +7,11 @@ using CoreComponents.Data;
 
 namespace SQLiteConnector
 {
-
-    public class SQLiteConnectionAndCommandManager : ConnectionAndCommandManager<SQLiteConnection, SQLiteCommand, SQLiteParameter>
+    
+    public class SQLiteDiscreteExecutor : DiscreteExecutor<SQLiteConnection, SQLiteCommand, SQLiteParameter>
     {
 
-        public SQLiteConnectionAndCommandManager()
+        public SQLiteDiscreteExecutor()
         {
         }
 

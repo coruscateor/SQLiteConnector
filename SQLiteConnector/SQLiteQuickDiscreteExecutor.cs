@@ -8,10 +8,10 @@ using CoreComponents.Data;
 namespace SQLiteConnector
 {
 
-    public class SQLiteConnectionAndCommandManager : ConnectionAndCommandManager<SQLiteConnection, SQLiteCommand, SQLiteParameter>
+    public class SQLiteQuickDiscreteExecutor : QuickDiscreteExecutor<SQLiteConnection, SQLiteCommand, SQLiteParameter>
     {
 
-        public SQLiteConnectionAndCommandManager()
+        public SQLiteQuickDiscreteExecutor()
         {
         }
 
